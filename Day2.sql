@@ -92,3 +92,6 @@ CREATE TABLE Student(
   CITY CityUDD,
   Telephone_Num Tel
 );
+
+--Q11
+create synonym syn_employee for Employee;
