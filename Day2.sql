@@ -69,3 +69,6 @@ GROUP BY P.ProjectName;
 --Q3
 CREATE SCHEMA HR;
 SELECT * INTO HR.Employee FROM Employee;
+
+--Q4
+CREATE TYPE CityUDD FROM Nvarchar(10);
