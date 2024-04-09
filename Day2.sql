@@ -78,3 +78,6 @@ CREATE TYPE Tel FROM Nvarchar(11) NOT NULL;
 
 --Q6
 CREATE DEFAULT VALUE AS 'Not Applied';
+
+--Q7
+CREATE RULE Check_City AS @Col IN ('Assiut','Cairo','Alex','Ismalia','Mansoura');
