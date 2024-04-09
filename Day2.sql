@@ -85,3 +85,10 @@ CREATE RULE Check_City AS @Col IN ('Assiut','Cairo','Alex','Ismalia','Mansoura')
 --Q8
 sp_bindefault VALUE,CityUDD;
 sp_bindrule Check_City,CityUDD;
+
+--Q9
+CREATE TABLE Student(
+  ID SMALLINT,
+  CITY CityUDD,
+  Telephone_Num Tel
+);
