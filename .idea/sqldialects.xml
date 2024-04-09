@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/../../../../Cources/ITI/Database (DB Fundamentals, Adv. SQL prog., Admin, BI)/Advanced SQL development/Day 1/ITI_dbo_test.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/../../../../Cources/ITI/Database (DB Fundamentals, Adv. SQL prog., Admin, BI)/Advanced SQL development/Day 2/Lab Assignments/SD37_Company.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/../../../../Cources/ITI/Database (DB Fundamentals, Adv. SQL prog., Admin, BI)/DB Fundamentals/Day 3 - DDL/Demos &amp; Resources/DBs/World_Script.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Day2.sql" dialect="TSQL" />
+    <file url="PROJECT" dialect="TSQL" />
+  </component>
+</project>
