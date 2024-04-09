@@ -61,6 +61,11 @@ WHERE job = 'clerk';
 
 --Q2
 CREATE VIEW VProj_Emp_Count AS
-SELECT P.ProjectName,COALESCE(COUNT(EmpNo),0) Emp_Num
-FROM Project P LEFT JOIN Works_On W ON P.ProjectNo = W.ProjectNo
+SELECT P.ProjectName, COALESCE(COUNT(EmpNo), 0) Emp_Num
+FROM Project P
+         LEFT JOIN Works_On W ON P.ProjectNo = W.ProjectNo
 GROUP BY P.ProjectName;
+
+--Q3
+CREATE SCHEMA HR;
+SELECT * INTO HR.Employee FROM Employee;
