@@ -59,5 +59,8 @@ FROM Works_On W
          JOIN dbo.Project P on W.ProjectNo = P.ProjectNo
 WHERE job = 'clerk';
 
-SELECT *
-FROM VEmp_Proj;
+--Q2
+CREATE VIEW VProj_Emp_Count AS
+SELECT P.ProjectName,COALESCE(COUNT(EmpNo),0) Emp_Num
+FROM Project P LEFT JOIN Works_On W ON P.ProjectNo = W.ProjectNo
+GROUP BY P.ProjectName;
