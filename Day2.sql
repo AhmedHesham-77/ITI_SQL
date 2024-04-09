@@ -75,3 +75,6 @@ CREATE TYPE CityUDD FROM Nvarchar(10);
 
 --Q5
 CREATE TYPE Tel FROM Nvarchar(11) NOT NULL;
+
+--Q6
+CREATE DEFAULT VALUE AS 'Not Applied';
