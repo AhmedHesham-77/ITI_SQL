@@ -72,3 +72,6 @@ SELECT * INTO HR.Employee FROM Employee;
 
 --Q4
 CREATE TYPE CityUDD FROM Nvarchar(10);
+
+--Q5
+CREATE TYPE Tel FROM Nvarchar(11) NOT NULL;
