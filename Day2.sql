@@ -49,3 +49,15 @@ VALUES (1, 20),
 INSERT INTO VTest
 VALUES (5, 22);
 
+----------------------------------------------------------------------------------
+-- Assignment
+--Q1
+CREATE VIEW VEmp_Proj AS
+SELECT CONCAT(FName, ' ', LName) NAME, ProjectName
+FROM Works_On W
+         JOIN dbo.Employee E on W.EmpNo = E.EmpNo
+         JOIN dbo.Project P on W.ProjectNo = P.ProjectNo
+WHERE job = 'clerk';
+
+SELECT *
+FROM VEmp_Proj;
